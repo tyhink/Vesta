@@ -601,11 +601,8 @@ function App() {
           <h2 className={'contact-title text-center'}>Contact Us</h2>
           <div className="contact-us-copy">
               <p className="contact-copy">
-                  It has survived not only five centuries,
-                  but also the leap into electronic typesetting,
-                  remaining essentially unchanged. It was popularised
-                  in the 1960s with the release of Letraset sheets containing
-                  Lorem Ipsum passages.
+                  Let's Chat! We'd love to tell you more about the benefits of investing
+                  and living in a Vesta home.
               </p>
           </div>
           <div className="form-container">

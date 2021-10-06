@@ -776,7 +776,7 @@ select.hero-select {
 
 input[type='text'].hero-search-input {
   background: transparent;
-  width: 84px;
+  width: 100%;
 }
 
 .market-value,
