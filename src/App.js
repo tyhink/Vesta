@@ -12,6 +12,7 @@ import smartHome from './images/icon-badges/smart-home.svg';
 import integratedHome from './images/icon-badges/integrated-home.svg';
 import invReturn from './images/icon-badges/investment-return.svg';
 import invTransfer from './images/icon-badges/fund-transfer.svg';
+import homeOwner from './images/icon-badges/home-ownership.svg';
 
 import './App.css';
 import {useRef, useState, useEffect} from "react";
@@ -386,39 +387,50 @@ function App() {
                   </div>
               </div>
           </div>
-          <div className="reasons-cards">
+          <div className="reasons-cards inv">
               <div className="reason-card">
                   <div className="reason-badge">
                       <img src={investHouse} alt="real estate investment service"/>
                   </div>
-                  <h4 className="text-center">Stop throwing money away on rent.</h4>
+                  <h4 className="text-center">A new way to invest and own a home</h4>
                   <p className="reason-copy text-center">
-                      As a Vesta resident, you aren’t a renter, you’re an owner.
-                      Each dollar you spend increases your fractional ownership
-                      of the entire Vesta portfolio of homes in the market in which you live.
+                      Invest as little or as much as you want and receive tokenized ownership
+                      in a property. Then just like with a traditional mortgage,
+                      your monthly payment amount will be determined by how much you invest.
                   </p>
               </div>
               <div className="reason-card">
                   <div className="reason-badge">
                       <img src={invReturn} alt="real estate investment service"/>
                   </div>
-                  <h4 className="text-center">All the gains of home ownership with none of the headaches.</h4>
+                  <h4 className="text-center">Welcome to Frictionless Home Ownership</h4>
                   <p className="reason-copy text-center">
-                      As the portfolio of homes appreciates in value, your investment grows.
-                      Enjoy the returns of an investment, while Vesta worries about leaky
-                      faucets, home insurance, property tax and all the other responsibilities
-                      of home ownership.
+                      Say goodbye to taking out home loans, expensive realtor
+                      commissions and closing costs. With Vesta there are zero
+                      transaction costs and we’ll even buy your home back from
+                      you whenever you’re ready at its new appraised value.
                   </p>
               </div>
               <div className="reason-card">
                   <div className="reason-badge">
                       <img src={invTransfer} alt="real estate investment service"/>
                   </div>
-                  <h4 className="text-center">Frictionless low cost real estate ownership, simplified.</h4>
+                  <h4 className="text-center">All the gains of home-ownership with non of the stress.</h4>
                   <p className="reason-copy text-center">
-                      Invest as little or as much as you want. Or cash out your equity at
-                      any time and say goodbye to expensive realtor commissions and closing
-                      costs.
+                      As your home’s value appreciates, your investment grows.
+                      Enjoy the returns of an investment, with none of the stress
+                      of buying and selling a traditional home.
+                  </p>
+              </div>
+              <div className="reason-card">
+                  <div className="reason-badge">
+                      <img src={homeOwner} alt="real estate investment service"/>
+                  </div>
+                  <h4 className="text-center">Don’t worry, it’s all included.</h4>
+                  <p className="reason-copy text-center">
+                      Never worry again about something breaking or expensive
+                      unexpected repairs. Annual property maintenance is already
+                      budgeted for in your monthly payment so any repairs are covered.
                   </p>
               </div>
           </div>

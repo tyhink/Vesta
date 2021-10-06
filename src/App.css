@@ -713,8 +713,11 @@ ul.footer-links {
   margin: 32px 0;
 }
 
+.reasons-cards.inv {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .reason-card {
-  height: 356px;
   background: #f3f3f4;
   margin: 48px 0;
   padding: 24px;
@@ -724,7 +727,7 @@ ul.footer-links {
   grid-row-gap: 16px;
 }
 
-.reason-card:nth-child(2) {
+.reason-card:nth-child(2n) {
   background: #ebeaf1;
 }
 
