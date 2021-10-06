@@ -635,7 +635,7 @@ ul.footer-links {
 .hero-search-container {
   width: 100%;
   display: grid;
-  grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 9fr 2fr 2fr 2fr 2fr 1fr;
   align-items: center;
   justify-content: center;
   background: #fff;

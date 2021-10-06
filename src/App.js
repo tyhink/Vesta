@@ -281,7 +281,7 @@ function App() {
                           <div className="hero-overlay">
                               <div className="prop-address">
                                   <i className="fas fa-map-marker-alt"></i>
-                                  2260 Woodleigh ct. New York, NY 10128
+                                  3260 Woodleigh ct. New York, NY 10128
                               </div>
                           </div>
                       </div>
