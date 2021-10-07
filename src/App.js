@@ -55,22 +55,9 @@ function App() {
                             strokeMiterlimit={10}
                             d="M247.653,489.361c0,0,172.751,257.086,261.167,257.086s267.918-257.086,267.918-257.086"/>
                     </svg>
-                    <span>
-                        VESTA
-                    </span>
                 </div>
 
                 <div className="visitor-menu">
-                  <div className="page-links">
-                    <ul className="site-links">
-                      <li className="site-link">
-                          Start Living
-                      </li>
-                      <li className="site-link">
-                          Start Investing
-                      </li>
-                    </ul>
-                  </div>
                   <div className="investor-btn">
                     <span>Login</span>
                       <span className="avatar">
